@@ -11,10 +11,11 @@ public class Door : MonoBehaviour
 
     [SerializeField]
     private Animator m_Anim;
-    private bool HasInteract;
-    private bool CanInteract;
 
     private int Anim_DoorOpen;
+
+    private bool HasInteract;
+    private bool CanInteract;
 
     private void Awake()
     {
@@ -36,8 +37,7 @@ public class Door : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Enter");
-        if(other.CompareTag("Player"))
+        if (other.CompareTag("Player"))
         {
             Debug.Log("PlayerEnter");
             CanInteract = true;
@@ -46,7 +46,6 @@ public class Door : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        Debug.Log("Exit");
         if (other.CompareTag("Player"))
         {
             Debug.Log("PlayerLeave");
