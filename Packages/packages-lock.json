@@ -19,11 +19,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.cinemachine": {
-<<<<<<< Updated upstream
-      "version": "2.9.5",
-=======
       "version": "2.9.7",
->>>>>>> Stashed changes
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -76,11 +72,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
-<<<<<<< Updated upstream
-      "version": "2.0.18",
-=======
       "version": "2.0.21",
->>>>>>> Stashed changes
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -160,11 +152,7 @@
     },
     "com.unity.settings-manager": {
       "version": "2.0.1",
-<<<<<<< Updated upstream
       "depth": 1,
-=======
-      "depth": 2,
->>>>>>> Stashed changes
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -256,11 +244,7 @@
       }
     },
     "com.unity.visualscripting": {
-<<<<<<< Updated upstream
-      "version": "1.9.0",
-=======
       "version": "1.9.1",
->>>>>>> Stashed changes
       "depth": 0,
       "source": "registry",
       "dependencies": {
